@@ -1,0 +1,343 @@
+body{
+    position: relative;
+    background: #000F1E;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+/* navbar styles */
+.navbar-dark{
+    background-color: #000F1E;
+}
+.nav-item{
+   margin-top: 10px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-weight: 500;
+}
+.nav-item-team{
+     margin-top: 10px;
+     padding-left: 2.5rem;
+     padding-right: 7rem;
+     color: #D0CDE1;
+     font-weight: 500;
+ }
+
+ .navbar-dark .navbar-nav .nav-link {
+    /* color: #D0CDE1; */
+    color: rgba(208, 205, 225, 0.6);
+        font-weight: bold;
+        font-size: 1.1em;
+}
+ .brand-font-size{
+     font-size: 45px;
+     font-weight: 600;
+     
+ }
+ .navbar-dark .navbar-brand {
+    color: rgba(208, 205, 225, 0.6);
+   
+}
+
+
+
+/* home page styles */
+.home-thebest{
+    position: absolute;
+    left: 204px;
+    top: 190px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 84px;
+    
+    
+    
+    color: #95020A;
+    
+}
+
+.home-seasonis{
+    position: absolute;
+    left: 95px;
+    top: 270px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 132px;
+    color: #647993;
+    
+}
+
+.home-manmade{
+    position: absolute;
+    left: 217px;
+    top: 396px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 132px;
+    color: #7588A6;
+}
+
+.home-made{
+    position: absolute;
+    width: 446px;
+    height: 216px;
+    left: -27px;
+    top: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180px;
+    line-height: 216px;
+    color: rgba(59, 58, 77, 0.226);
+}
+
+.tree-swing-svg{
+    position: absolute;
+    width: 840px;
+    height: 640px;
+    left: 600px;
+    top: 60px;
+
+}
+
+.ritu-date{
+    
+position: absolute;
+left: 95px;
+top: 616px;
+font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 47px;
+
+color: rgba(208, 205, 225, 0.55);
+}
+
+.fb-footer-logo{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 650px;
+    top: 720px;
+}
+
+.insta-footer-logo{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 820px;
+    top: 720px;
+    color: rgba(208, 205, 225, 0.6);
+}
+
+.fb-footer-name{
+    position: absolute;
+    left: 690px;
+    top: 720px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    
+    
+    color: #d0cde199;
+}
+.insta-footer-name{
+    position: absolute;
+    left: 860px;
+    top: 720px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */
+
+
+color: rgba(208, 205, 225, 0.6);
+
+}
+/* mobile size  */
+
+@media only screen and (max-width: 600px) {
+    .brand-font-size{
+        font-size: 24px;
+        font-weight: 600;
+        
+    }
+
+    .navbar-dark{
+        background-color: #000F1E;
+    }
+    .home-thebest{
+      
+        position: relative;
+        width: 271px;
+        height: 67px;
+        left: 53px;
+        top: 32px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 67px;
+
+        color: #95020A;
+    }
+    .home-seasonis{
+    
+        color: #647993; 
+        position: relative;
+        width: 271px;
+        height: 67px;
+        left: 30px;
+        top: 20px;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 67px;
+
+    }
+    .home-manmade{
+        position: relative;
+        width: 271px;
+        height: 67px;
+        left: 119px;
+        top: 12px;
+        
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 67px;
+        
+        color: #7588A6;
+    }
+    .tree-swing-svg{
+        position: absolute;
+        width: 546px;
+        height: 432px;
+        left: -234px;
+        top: 230px;
+    }
+    .home-made{
+        display: none;
+    }
+    .ritu-date{
+        position: absolute;
+        left: 224px;
+        top: 290px;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+
+        color: rgba(208, 205, 225, 0.55);
+    }
+    .fb-footer-logo{
+            position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 30px;
+    top: 695px;
+
+    }
+    .insta-footer-logo{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 145px;
+        top: 695px;
+    }
+    .insta-footer-name{
+        position: absolute;
+        width: 65px;
+        height: 19px;
+        left: 171px;
+        top: 694px;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(208, 205, 225, 0.6);
+
+    }
+    .fb-footer-name{
+        position: absolute;
+        width: 65px;
+        height: 19px;
+        left: 56px;
+        top: 694px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+color: rgba(208, 205, 225, 0.6);
+    }
+    
+}
+
+
+/* about page */
+
+.about-ritu-heading{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #95020A;
+}
+
+.ritu-heading{
+font-style: normal;
+font-weight: bold;
+font-size: 4rem;
+color: #647993;
+}
+.about-ritu-para{
+    color: #D0CDE1;
+    font-size: 1.0rem;
+    
+}
+
+/* events page */
+
+.general-event-name{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #647993;
+}
+
+.department-name-head{
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: #647993;
+}
+.single-dep{
+    background-color: #D0CDE1;
+    border-radius: 10px;
+    border: 2px solid #000F1E;
+    transition: .5s;
+}
+.single-dep:hover{
+    background-color: #000F1E;
+}
+.svg-style{
+    height: 150px;
+}

@@ -1,0 +1,193 @@
+.home-thebest{
+    position: absolute;
+    left: 204px;
+    top: 190px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 84px;
+    
+    
+    
+    color: #95020A;
+    
+}
+
+.home-seasonis{
+    position: absolute;
+    left: 95px;
+    top: 270px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 132px;
+    color: #647993;
+    
+}
+
+.home-manmade{
+    position: absolute;
+    left: 217px;
+    top: 396px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 132px;
+    color: #7588A6;
+}
+
+.home-made{
+    position: absolute;
+    width: 446px;
+    height: 216px;
+    left: -27px;
+    top: 300px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180px;
+    line-height: 216px;
+    color: rgba(59, 58, 77, 0.226);
+}
+
+.tree-swing-svg{
+    position: absolute;
+    width: 820px;
+    height: 640px;
+    left: 512px;
+    top: 60px;
+
+}
+
+.ritu-date{
+    
+position: absolute;
+left: 95px;
+top: 616px;
+font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 47px;
+
+color: rgba(208, 205, 225, 0.55);
+}
+
+.fb-footer-logo{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 565px;
+    top: 720px;
+}
+
+.insta-footer-logo{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 722px;
+    top: 720px;
+    color: rgba(208, 205, 225, 0.6);
+}
+
+.fb-footer-name{
+    position: absolute;
+    left: 603px;
+    top: 720px;
+    
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    
+    
+    color: #d0cde199;
+}
+.insta-footer-name{
+    position: absolute;
+    left: 761px;
+    top: 720px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */
+
+
+color: rgba(208, 205, 225, 0.6);
+
+}
+/* mobile size  */
+
+@media only screen and (max-width: 600px) {
+    body{
+        position: relative;
+        width: 360px;
+        height: 640px;
+    }
+    .brand-font-size{
+        font-size: 24px;
+        font-weight: 600;
+        
+    }
+    .home-thebest{
+        position: absolute;
+        left: 78px;
+        top: 67px;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        color: #95020A;
+    }
+    .home-seasonis{
+        position: absolute;
+        width: 219px;
+        top: 106px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 55px;
+        color: #647993;
+
+    }
+    .home-manmade{
+        position: absolute;
+        width: 223px;
+        height: 55px;
+        left: 114px;
+        top: 157px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 55px;
+        color: #7588A6;
+    }
+    .tree-swing-svg{
+     display: none;
+    }
+    .home-made{
+        display: none;
+    }
+    .fb-footer-logo{
+        display: none;
+    }
+    .insta-footer-logo{
+        display: none;
+    }
+    .insta-footer-name{
+        display: none;
+    }
+    .fb-footer-name{
+        display: none;
+    }
+    
+}
