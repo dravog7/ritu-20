@@ -307,7 +307,7 @@ color: rgba(208, 205, 225, 0.6);
 .ritu-heading{
 font-style: normal;
 font-weight: bold;
-font-size: 4rem;
+font-size: 3.4rem;
 color: #647993;
 }
 .about-ritu-para{
@@ -340,4 +340,69 @@ color: #647993;
 }
 .svg-style{
     height: 150px;
+}
+
+.event-name{
+    font-weight: 900;
+    font-size: 5rem;
+    color: #647993;
+}
+.event-describe{
+    
+}
+
+.reg-date{
+    color: #95020A;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.reg-prize{
+    color: #95020A;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.reg-btn{
+    border: 1px solid #95020A;
+    color: #7588A6;
+    background: none;
+    height: 45px;
+}
+
+.description-event-head{
+    color: #D0CDE1;
+
+}
+.description-event{
+    color: #D0CDE1;
+    font-size: 1em;
+}
+
+.description-event-contact{
+    color: #D0CDE1;
+    
+    font-size: 1.5em;
+}
+
+.event-contact{
+    color: #7588A6;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.prize-value{
+    color: #7588A6;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.prize{
+    color: #7588A6;
+    font-size: 1em;
+}
+
+.hr-event-name{
+   background: #FB7663;
+   height: 5px;
+   border-radius: 100px;
 }
